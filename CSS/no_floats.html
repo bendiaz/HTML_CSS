@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Floated Elements
+    </title>
+    <style type="text/css" media="screen">
+        p:first-child:first-letter {
+            color: #903;
+            float: left;
+            font-family: Georgia;
+            font-size: 75px;
+            line-height: 60px;
+            padding-top: 4px;
+            padding-right: 8px;
+            padding-left: 3px;
+        }
+        
+        .right {
+            border: 3px solid black;
+            padding: 10px;
+            margin: 10px;
+            float: right;
+            width: 33%;
+        }
+        
+        #second {
+            clear: right
+        }
+        
+        .bottom {
+            clear: both;
+        }
+        
+        abbr::before {
+            content: "[["
+        }
+        
+        abbr::after {
+            content: "]]"
+        }
+        
+        p[class="highlight"] {
+            font-weight: bold;
+        }
+        
+        p[class=~"highlight"] {
+            font-weight: bold;
+        }
+        
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: aliceblue;
+            background-color: #0e69b4bd
+        }
+    </style>
+</head>
+
+<body>
+    <p class="right" id="first">
+        The <abbr> absense</abbr> of romance in my history, will, I fear, detract somewhat from its interest; but if it judged useful by those inquirers who desire an exact knowledge of the past as an aid to the interpretation of the future, which in
+        the course of human things must resemble if it does not reflect it, I shall be content.
+    </p>
+    <p class="main" id="second">
+        The <abbr>absense </abbr> of romance in my historywill, I fear, detract somewhat from its interest; but if it be judeged useful by those inquirers who desire an exact knowledge of the past as an aid to the inter[retation of the future, which in
+        the couse of human things must resemble if it does not reflect it. I shall be content. In fine, I have written my work, not as an essay which is to win the applause of the moment, but as a possession for all time
+    </p>
+    <p class="bottom" id="third">
+        The <abbr>absense</abbr> of romance in my history will, I fear, detract somewhat from its interest; but if it be judeges useful by those inquirers who desire an exact knowledge of the past as an aid to the interpreation of the future, which in
+        the course of human things must resemble if it does not reflect it, I shall be content. In finre, I have written my work, not as an essay which in the course of human things must resemble if it does not reflect it, I shall be content. In fine,
+        I have written my work, not as an essay which is to win the applause of the moment, but as a possession for all time.
+    </p>
+    <p class="highlight"> This is a major highlight</p>
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+h1 {
+    font-size: x-large;
+    font-weight: bold;
+    color: crimson
+}
+
+h2 {
+    font-size: large;
+    font-weight: bold;
+    color: crimson
+}
+
+.yellow {
+    color: yellow
+}
+
+.blue {
+    color: blue
+}
+
+.yellow.blue {
+    color: green
+}
+
+p,
+ol,
+ul {
+    color: dodgerblue
+}
+
+li strong {
+    color: chartreuse
+}
+
+cite {
+    font-size: small
+}
+
+blockquote cite {
+    font-size: larger;
+    color: teal
+}
+
+.something {
+    color: burlywood;
+    font-weight: bolder;
+}
+
+div.something {
+    color: blueviolet;
+    font: xx-large;
+}
+
+p.something {
+    color: red;
+    font-weight: lighter
+}
+
+#footer {
+    font-stretch: extra-expanded;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1,
+#headline,
+.heading,
+div.important {
+    font-size: xx-large;
+    color: aqua;
+}
+
+body {
+    font-size: 200%;
+}
+
+div {
+    font-size: 80%;
+}
+
+p {
+    line-height: 2em;
+}
+
+span.smaller {
+    font-size: 100%;
+    font-weight: bolder
+}
+
+#smallest {
+    font-size: 120%;
+    font-weight: normal;
+}
+
+a {
+    color: darkorchid
+}
+
+a:visited {
+    color: cadetblue
+}
+
+a:hover {
+    color: gold
+}
+
+a {
+    border-width: 1px 2px 3px 4px;
+    border-style: dashed;
+}
+
+h2 {
+    border: solid 4px sienna border-bottom: groove 6px gainsboro
+}
