@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> CSS Example</title>
+    <style type="text/css">
+        .offset {
+            border: 3px solid blue;
+            padding: 10px;
+            margin: 10px;
+            background-color: #aaaaaa;
+            position: relative;
+            top: -25px;
+            left: 25px;
+            width: 33%;
+        }
+        
+        #positioned {
+            position: relative;
+            left: 50px;
+        }
+        
+        span {
+            background-color: whitesmoke;
+            border: 1px solid black;
+        }
+        
+        #inner {
+            position: relative;
+            left: 25px;
+            top: 10px;
+        }
+        
+        #outer {
+            position: relative;
+            top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        The absense of romance in my history will, I fear, detract somewhat <span id="outer"> from its <span id="inner">interest;</span></span> but if it be judged useful by those inquirers who desire an exact knowledge of the past as an aid to the interpretation
+        of the future, which in the course of human things must resemble if it does not reflect it, I shall be content.
+    </p>
+    <p class="offset">
+        The absense of romance in my history will, I fear, destract somewhat from its interest; but if it be judged useful by those inquirers who desire an exact knowledge of the past as an aid to the interpretation of the future, which in the course of human
+        things must resemble if it does not reflect it, I shall content.
+    </p>
+    <div id="positioned">
+        <p>
+            The absense of romance in my history will, I fear, destract somewhat from its interest; but if it be judged useful by those inquirers who desire an exact knowledge of the past as an aid to the interpretation of the future, which in the course of human
+            things must resemble if it does not reflect it, I shall be content.
+        </p>
+    </div>
+</body>
+
+</html>
